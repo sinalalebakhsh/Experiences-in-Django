@@ -14,6 +14,14 @@ Be sure to make the point                |
                                          |
 7- build file urls.py in App             |==>   rigth click on the App than click on the file than type ==> urls.py
                                          |
+8- go config / urls.py than              |==>  import include after ==> from django import path,
+                                         |
+9- write this in list urlpatterns        |==>  after line path('Admin/', admin.site.urls),  
+                                         |     write this ==>> path('name addres you want', include('nameApp.urls'))
+                                         |                                                , for this example : include('Weblog.urls')
+                                         |
+10-                                      |
+                                         |
                                          |
                                          |
                                          |
