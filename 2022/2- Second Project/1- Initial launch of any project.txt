@@ -20,14 +20,16 @@ Be sure to make the point                |
                                          |     write this ==>> path('name addres you want', include('nameApp.urls'))
                                          |                                                , for this example : include('Weblog.urls')
                                          |
-10- write in App / urls.py               |==>      write first ==> from django import path       
+10- write in App / urls.py               |==>      write first line ==> from django import path       
                                          |    than:
                                          |==>      urlspatterns = [ path('address after Weblog/', name views, name='say somthing')]
                                          |    than:
                                          |         from .view import name_function_example 
                                          |
-11-                                      |
-                                         |
+11- define fuction in App / views.py     |=>       write first line ==> from django.http import HttpResponse
+                                         |    than:
+                                         |         def name_function_example():
+                                         |             return HttpResponse('say somting .....   etc ...')
                                          |
                                          |
                                          |
