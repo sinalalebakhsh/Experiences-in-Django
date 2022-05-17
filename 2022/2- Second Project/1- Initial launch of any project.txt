@@ -22,7 +22,7 @@ Be sure to make the point                |
                                          |
 10- write in App / urls.py               |==>      write first line ==> from django import path       
                                          |    than:
-                                         |==>      urlspatterns = [ path('address after Weblog/', name views, name='say somthing')]
+                                         |==>      urlspatterns = [ path('address after Weblog/', name_views, name='say somthing')]
                                          |    than:
                                          |         from .views import name_function_example 
                                          |
@@ -31,7 +31,9 @@ Be sure to make the point                |
                                          |         def name_function_example():
                                          |             return HttpResponse('say somting .....   etc ...')
                                          |
-                                         |
+12- another way write this               |==> App/urls.py write first line==>  from . import views
+                                         |    than:
+                                         |==>      urlspatterns = [ path('address after Weblog/', views.name_views, name='say somthing')]
                                          |
                                          |
                                          
