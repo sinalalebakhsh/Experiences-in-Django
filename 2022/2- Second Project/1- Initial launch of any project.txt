@@ -11,3 +11,15 @@ Be sure to make the point                |
 5- build a App whith this command        |==>   python manage.py startapp (name App) Weblog     
                                          |
 6-  add this App in setting.py in config |==>   in list ==> INSTALL_APPS ['Weblog']
+                                         |
+7- build file urls.py in App             |==>   rigth click on the App than click on the file than type ==> urls.py
+                                         |
+                                         |
+                                         |
+                                         |
+                                         |
+                                         |
+                                         |
+                                         |
+                                         |
+                                         
