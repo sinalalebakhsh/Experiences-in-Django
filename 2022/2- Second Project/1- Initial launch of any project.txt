@@ -24,7 +24,7 @@ Be sure to make the point                |
                                          |    than:
                                          |==>      urlspatterns = [ path('address after Weblog/', name views, name='say somthing')]
                                          |    than:
-                                         |         from .view import name_function_example 
+                                         |         from .views import name_function_example 
                                          |
 11- define fuction in App / views.py     |=>       write first line ==> from django.http import HttpResponse
                                          |    than:
