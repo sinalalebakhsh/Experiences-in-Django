@@ -20,11 +20,13 @@ Be sure to make the point                |
                                          |     write this ==>> path('name addres you want', include('nameApp.urls'))
                                          |                                                , for this example : include('Weblog.urls')
                                          |
-10-                                      |
+10- write in App / urls.py               |==>      write first ==> from django import path       
+                                         |    than:
+                                         |==>      urlspatterns = [ path('address after Weblog/', name views, name='say somthing')]
+                                         |    than:
+                                         |         from .view import name_function_example 
                                          |
-                                         |
-                                         |
-                                         |
+11-                                      |
                                          |
                                          |
                                          |
