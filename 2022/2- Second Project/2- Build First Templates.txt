@@ -1,0 +1,6 @@
+in App > Right Click > than click New than click Directory =>> templates 
+
+in this Directory: Right Click > New > File > name_File.html 
+
+in name_File.html write >   html + Ctrl + Space Keys ===> Click html:4s <====
+
