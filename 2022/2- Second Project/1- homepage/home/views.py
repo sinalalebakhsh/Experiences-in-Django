@@ -5,7 +5,10 @@ def homepage(request):
 
 
 def rooot(request):
-    return render(request, 'rooot.html')
+    context = {
+        'page_name' : 'Rooot'
+    }
+    return render(request, 'rooot.html', context)
 
 def sinanis(request):
     return render(request, 'home/sinanis.html')
