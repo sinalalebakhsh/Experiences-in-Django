@@ -7,3 +7,8 @@ def homepage(request):
 def rooot(request):
     return render(request, 'rooot.html')
 
+def sinanis(request):
+    return render(request, 'home/sinanis.html')
+
+
+
