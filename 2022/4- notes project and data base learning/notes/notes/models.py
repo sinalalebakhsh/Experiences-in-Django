@@ -8,3 +8,7 @@ class Note(models.Model):
     
     
 # and write this in terminal address -->>   python manage.py makemigrations notes
+
+
+
+# than write terminal -->>                  python manage.py migrate
