@@ -9,7 +9,10 @@ def home(request):
 
 
 def hackme_space(request):
-    return render(request, 'pages/hackme_space.html')
+    context = {
+        'page_name': 'Hackme.Space'
+    }
+    return render(request, 'pages/hackme_space.html', context)
 
 
 def sinanis(request):
