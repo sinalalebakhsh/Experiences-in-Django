@@ -16,6 +16,9 @@ def hackme_space(request):
 
 
 def sinanis(request):
-    return render(request, 'pages/sinanis.html')
+    context = {
+        'page_name': 'SinaniS'
+    }
+    return render(request, 'pages/sinanis.html', context)
 
 
