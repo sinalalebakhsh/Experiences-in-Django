@@ -8,5 +8,5 @@ class Note(models.Model):
     # than write terminal -->>                  python manage.py migrate
     
     def __str__(self):
-        return (self.author , self.text)
+        return f'{self.author} : {self.text}'
    
